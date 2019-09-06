@@ -2,8 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   i = 0
   dwarves.each do|name|
-    puts i + " "
-    puts name
+    puts i + name
     i += 1 
   end
 end
